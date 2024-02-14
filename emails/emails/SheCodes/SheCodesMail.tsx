@@ -17,12 +17,15 @@ export default function Email() {
   >
     <Html className="font-mono mx-[10%]">
         <Body className="bg-white">
+          <div className="rounded-[50%] absolute top-[0] bg-[#7046E7] w-[100%] ">
+dasd
+          </div>
         {/* <Img className="mx-auto "src={"../../static/SheCodesMailLogo.png"} /> */}
         <Img className="mx-auto" src="https://shemail-bucket-1.s3.ap-south-1.amazonaws.com/SheCodesMailLogo.png" />
 
         <Heading className="pt-[5%]" as="h1">Hello , {company }</Heading>
         <div className="flex items-center gap-4">
-        <Img className=" "src={"../../static/bulletpoint.png"} height="40" />
+        <Img className=" " src="https://shemail-bucket-1.s3.ap-south-1.amazonaws.com/Misc_01.png" height="40" />
       <Text className="text-lg">We are India’s First International Women’s Hackathon and we have an idea that you might like . But before that , here are some stats about us...</Text>
         </div>
 
@@ -42,7 +45,7 @@ export default function Email() {
 
 
         <div className="flex items-center gap-4">
-        <Img className=" "src={"../../static/bulletpoint.png"} height="40" />
+        <Img className=" " src="https://shemail-bucket-1.s3.ap-south-1.amazonaws.com/Misc_01.png" height="40" />
       <Text className="text-lg">30+ Judges and 50+ Mentors will be joining us from companies such as  Adobe, Google, Amazon, Microsoft,etc</Text>
         </div>
 
