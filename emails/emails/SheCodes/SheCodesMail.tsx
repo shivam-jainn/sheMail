@@ -17,10 +17,10 @@ export default function Email() {
   >
     <Html className="font-mono mx-[10%]">
         <Body className="bg-white">
-        <Img className="mx-auto "src={"../../static/SheCodesMailLogo.png"} />
-        {/* <Img src="https://shemail-bucket-1.s3.ap-south-1.amazonaws.com/SheCodesMailLogo.jpg" /> */}
+        {/* <Img className="mx-auto "src={"../../static/SheCodesMailLogo.png"} /> */}
+        <Img className="mx-auto" src="https://shemail-bucket-1.s3.ap-south-1.amazonaws.com/SheCodesMailLogo.png" />
 
-        <Heading className="pt-[5%]" as="h2">Hello , {company }</Heading>
+        <Heading className="pt-[5%]" as="h1">Hello , {company }</Heading>
         <div className="flex items-center gap-4">
         <Img className=" "src={"../../static/bulletpoint.png"} height="40" />
       <Text className="text-lg">We are India’s First International Women’s Hackathon and we have an idea that you might like . But before that , here are some stats about us...</Text>
