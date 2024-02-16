@@ -45,10 +45,11 @@ export default function Email() {
           />
         </Head>
         <Body className="bg-white m-0 ">
-          <div className=" z-[-1]"> <Img
-              className="mx-auto absolute w-[100%] h-[350px] md:h-[200px] "
+          {/* <div className=" z-[-1]"> <Img
+              className="mx-auto w-[100%] h-[350px] md:h-[200px] z-[-1] "
               src="../../static/topGradient.png"
-            /></div>
+            /></div> */}
+            {/* mt-[-3250px] md:mt-[-175px] */}
           <div className=" py-[15%] md:py-[5%] px-[5%] md:px-[15%] ">
             {/* <Img className="mx-auto "src={"../../static/SheCodesMailLogo.png"} /> */}
             <Img
